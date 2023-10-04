@@ -3,14 +3,14 @@ import java.util.ArrayList;
 public class BankSystem
 {
     
-	//An arrayList of bank accounts
-	private ArrayList<Account> accountArray = new ArrayList<Account>();
+    //An arrayList of bank accounts
+    private ArrayList<Account> accountArray = new ArrayList<Account>();
 	
-	private int numValidProcessedTrans; // number of processed transactions 
-	private int numValidUnProcessedTrans; // number of unprocessed transactions
+    private int numValidProcessedTrans; // number of processed transactions 
+    private int numValidUnProcessedTrans; // number of unprocessed transactions
 	
-	// Make a reference to the BankSystem	
-	private static BankSystem     instance;
+    // Make a reference to the BankSystem	
+    private static BankSystem     instance;
 
     private BankSystem() // constructor
     {
